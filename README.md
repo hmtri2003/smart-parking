@@ -2,6 +2,12 @@
 
 Ứng dụng quản lý bãi giữ xe chạy trực tiếp từ **Ổ Cứng Di Động (USB / External Drive)** trên nhiều máy tính khác nhau (Windows / Linux / macOS) mà không bị phụ thuộc vào đường dẫn cố định.
 
+## 🎬 Video Demo
+
+[![Video demo hệ thống quản lý bãi giữ xe](https://img.youtube.com/vi/M9WuzOeWIzk/maxresdefault.jpg)](https://www.youtube.com/watch?v=M9WuzOeWIzk)
+
+▶️ **Xem demo:** <https://www.youtube.com/watch?v=M9WuzOeWIzk>
+
 ---
 
 ## 🚀 Hướng Dẫn Chạy Trên Các Máy Tính Khác Nhau
@@ -63,5 +69,18 @@
 ├── gui/                    # Giao diện PyQt6
 ├── main.py                 # File chạy chính
 ├── esp32_firmware.ino      # Firmware nạp cho ESP32 Hardware
+├── FinalProjectReport.pdf  # Báo cáo đồ án
+├── FinalProjectPPT.pdf     # Slide thuyết trình
 └── requirements.txt        # Thư viện cần thiết
 ```
+
+---
+
+## 📄 Tài Liệu
+
+| Tài liệu | Tệp |
+| --- | --- |
+| Báo cáo đồ án | [FinalProjectReport.pdf](FinalProjectReport.pdf) |
+| Slide thuyết trình | [FinalProjectPPT.pdf](FinalProjectPPT.pdf) |
+
+Xem thêm video demo: <https://www.youtube.com/watch?v=M9WuzOeWIzk>
