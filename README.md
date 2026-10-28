@@ -62,7 +62,7 @@
 ├── run_windows.bat         # File chạy 1-click cho máy Windows
 ├── run_linux.sh            # File chạy 1-click cho máy Linux
 ├── run_mac.sh              # File chạy 1-click cho máy macOS
-├── alpr/                   # Engine AI YOLOv8 + PaddleOCR
+├── alpr/                   # Engine AI: YOLOv8n (detect) + EasyOCR/PaddleOCR (OCR)
 ├── weights/best.pt         # Trọng số mô hình biển số xe Việt Nam
 ├── database.py             # SQLite Database (lưu ngay trên ổ cứng di động)
 ├── uart_controller.py      # Giao tiếp UART Serial & Virtual Simulator
@@ -70,7 +70,8 @@
 ├── parking_manager.py      # Logic xe vào/ra & tính tiền
 ├── gui/                    # Giao diện PyQt6
 ├── main.py                 # File chạy chính
-├── esp32_firmware.ino      # Firmware nạp cho ESP32 Hardware
+├── esp32_firmware/         # Firmware Arduino cho ESP32-S3
+│   └── esp32_firmware.ino
 ├── FinalProjectReport.pdf  # Báo cáo đồ án
 ├── FinalProjectPPT.pdf     # Slide thuyết trình
 └── requirements.txt        # Thư viện cần thiết
