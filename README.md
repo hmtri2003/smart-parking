@@ -12,13 +12,11 @@
 ## 🚀 Hướng Dẫn Chạy Trên Các Máy Tính Khác Nhau
 
 ### 1. Trên Máy Tính Windows:
-- Cắm ổ cứng di động vào máy tính Windows.
 - Mở thư mục dự án và nhấp đúp chạy tệp:
   `run_windows.bat`
 - *(Tệp bat sẽ tự động tạo môi trường `.venv` và cài đặt các thư viện cần thiết nếu máy chưa có sẵn)*.
 
 ### 2. Trên Máy Tính Linux (Ubuntu, Debian, Fedora, Arch...):
-- Cắm ổ cứng di động và mở Terminal tại thư mục ứng dụng.
 - Chạy câu lệnh:
   ```bash
   ./run_linux.sh
