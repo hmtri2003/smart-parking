@@ -42,7 +42,9 @@
 1. **Portable 100% (Hoạt động đa nền tảng)**:
    - Tất cả dữ liệu (Cơ sở dữ liệu SQLite `data/parking.db`, ảnh chụp `data/captures`, mô hình AI `weights/best.pt`) đều được định vị bằng đường dẫn tương đối động (`paths.py`).
 2. **Nhận diện Biển Số Tự Động (ALPR)**:
-   - Sử dụng **YOLOv8** + **PaddleOCR** đọc chính xác biển số xe Việt Nam.
+   - Phát hiện vùng biển số bằng **YOLOv8n** với trọng số huấn luyện sẵn `weights/best.pt` (2 lớp: ô tô / xe máy), suy luận trên CPU.
+   - Nhận dạng ký tự bằng **EasyOCR** (PyTorch, chạy CPU); **PaddleOCR** là bộ dự phòng tự động khi EasyOCR không khả dụng hoặc đọc thất bại.
+   - Hậu xử lý theo mẫu biển Việt Nam: chuẩn hóa chữ hoa, bỏ dấu phân cách, tách biển hai dòng và sửa các cặp ký tự dễ nhầm (O/0, I/1, B/8, Z/2) theo vị trí ký tự.
 3. **Giao Tiếp ESP32 UART & Bộ Giả Lập Virtual Hardware**:
    - Nhận tín hiệu quẹt thẻ RFID (`CARD:<UID>`), phát lệnh mở cản barrier (`CMD:GATE_OPEN`).
    - Tích hợp bộ giả lập quẹt thẻ ngay trên app để thử nghiệm không cần phần cứng.
