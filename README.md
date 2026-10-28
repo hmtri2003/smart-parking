@@ -1,6 +1,5 @@
 # Hệ Thống Quản Lý Bãi Giữ Xe Thông Minh (Portable ALPR + ESP32 UART)
 
-Ứng dụng quản lý bãi giữ xe chạy trực tiếp từ **Ổ Cứng Di Động (USB / External Drive)** trên nhiều máy tính khác nhau (Windows / Linux / macOS) mà không bị phụ thuộc vào đường dẫn cố định.
 
 ## 🎬 Video Demo
 
